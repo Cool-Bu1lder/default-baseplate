@@ -1,0 +1,312 @@
+{
+  "name": "default-baseplate",
+  "tree": {
+    "$className": "DataModel",
+
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": false
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "Gravity": 196.2,
+        "SignalBehavior": "Deferred",
+        "StreamingEnabled": true,
+        "ModelStreamingBehavior": "Default",
+        "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "StreamingMinRadius": 64,
+        "StreamingTargetRadius": 1024,
+        "StreamOutBehavior": "Opportunistic"
+      },
+      "Terrain": {
+        "$className": "Terrain",
+        "$properties": {
+          "Decoration": true
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "CFrame": [0, 0.5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+          "Size": [12, 1, 12],
+          "Duration": 0,
+          "TopSurface": "Smooth",
+          "BottomSurface": "Smooth"
+        },
+        "Decal": {
+          "$className": "Decal",
+          "$properties": {
+            "Texture": "rbxasset://textures/SpawnLocation.png",
+            "Face": "Top"
+          }
+        }
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [0.357, 0.357, 0.357],
+          "Locked": true,
+          "CFrame": {
+            "CFrame": {
+              "position": [0, -8, 0],
+              "orientation": [
+                [1, 0, 0],
+                [0, 1, 0],
+                [0, 0, 1]
+              ]
+            }
+          },
+          "Size": [2048, 16, 2048],
+          "TopSurface": "Smooth",
+          "BottomSurface": "Smooth"
+        },
+        "Texture": {
+          "$className": "Texture",
+          "$properties": {
+            "Color3": [0, 0, 0],
+            "StudsPerTileU": 8,
+            "StudsPerTileV": 8,
+            "Texture": "rbxassetid://6372755229",
+            "Transparency": 0.8,
+            "Face": "Top"
+          }
+        }
+      }
+    },
+
+    "Players": {
+      "$properties": {
+        "RespawnTime": 3
+      }
+    },
+
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0.275, 0.275, 0.275],
+        "Brightness": 3,
+        "ColorShift_Bottom": [0, 0, 0],
+        "ColorShift_Top": [0, 0, 0],
+        "EnvironmentDiffuseScale": 1,
+        "EnvironmentSpecularScale": 1,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [0.275, 0.275, 0.275],
+        "ShadowSoftness": 0.2,
+        "Technology": "ShadowMap",
+        "ClockTime": 14.5,
+        "GeographicLatitude": 1,
+        "TimeOfDay": "14:30:00",
+        "ExposureCompensation": 0
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Density": 0.3,
+          "Offset": 0.25,
+          "Color": [0.781, 0.781, 0.781],
+          "Decay": [0.416, 0.44, 0.491],
+          "Glare": 0,
+          "Haze": 0
+        }
+      },
+      "Sky": {
+        "$className": "Sky",
+        "$properties": {
+          "CelestialBodiesShown": true,
+          "MoonAngularSize": 11,
+          "MoonTextureId": "rbxassetid://6444320592",
+          "SkyboxBk": "rbxassetid://6444884337",
+          "SkyboxDn": "rbxassetid://6444884785",
+          "SkyboxFt": "rbxassetid://6444884337",
+          "SkyboxLf": "rbxassetid://6444884337",
+          "SkyboxRt": "rbxassetid://6444884337",
+          "SkyboxUp": "rbxassetid://6412503613",
+          "StarCount": 3000,
+          "SunAngularSize": 11,
+          "SunTextureId": "rbxassetid://6196665106"
+        }
+      },
+      "Bloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Enabled": true,
+          "Intensity": 1,
+          "Size": 24,
+          "Threshold": 2
+        }
+      },
+      "DepthOfField": {
+        "$className": "DepthOfFieldEffect",
+        "$properties": {
+          "Enabled": false,
+          "FarIntensity": 0.1,
+          "FocusDistance": 0.05,
+          "InFocusRadius": 30,
+          "NearIntensity": 0.75
+        }
+      },
+      "SunRays": {
+        "$className": "SunRaysEffect",
+        "$properties": {
+          "Intensity": 0.01,
+          "Spread": 0.1
+        }
+      }
+    },
+
+    "MaterialService": {
+      "$properties": {
+        "Use2022Materials": true
+      }
+    },
+
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst"
+    },
+
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    },
+
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+
+    "ServerStorage": {
+      "$path": "src/ServerStorage"
+    },
+
+    "StarterGui": {
+      "$properties": {
+        "ScreenOrientation": "Sensor"
+      }
+    },
+
+    "StarterPack": {
+      "$path": "src/StarterPack"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/StarterCharacterScripts"
+      },
+      "$properties": {
+        "CameraMaxZoomDistance": 128,
+        "CharacterWalkSpeed": 16,
+        "CharacterUseJumpPower": false,
+        "CharacterJumpHeight": 7.2
+      }
+    },
+
+    "Teams": { "$path": "src/Teams" },
+
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+
+    "TextChatService": {
+      "$properties": {
+        "ChatVersion": "TextChatService"
+      },
+      "ChatWindowConfiguration": {
+        "$className": "ChatWindowConfiguration",
+        "$properties": {
+          "FontFace": {
+            "family": "rbxasset://fonts/families/BuilderSans.json",
+            "weight": "Regular",
+            "style": "Normal"
+          },
+          "TextSize": 18
+        }
+      },
+      "ChatInputBarConfiguration": {
+        "$className": "ChatInputBarConfiguration",
+        "$properties": {
+          "FontFace": {
+            "family": "rbxasset://fonts/families/BuilderSans.json",
+            "weight": "Regular",
+            "style": "Normal"
+          },
+          "TextSize": 18
+        }
+      },
+      "BubbleChatConfiguration": {
+        "$className": "BubbleChatConfiguration",
+        "$properties": {
+          "FontFace": {
+            "family": "rbxasset://fonts/families/BuilderSans.json",
+            "weight": "Regular",
+            "style": "Medium"
+          },
+          "TextSize": 20
+        },
+        "UiCorner": {
+          "$className": "UICorner",
+          "$properties": {
+            "CornerRadius": { "UDim": [0.0, 12] }
+          }
+        },
+        "UiGradient": {
+          "$className": "UIGradient",
+          "$properties": {
+            "Color": {
+              "ColorSequence": {
+                "keypoints": [
+                  {
+                    "time": 0.0,
+                    "color": [1.0, 1.0, 1.0]
+                  },
+                  {
+                    "time": 1.0,
+                    "color": [1.0, 1.0, 1.0]
+                  }
+                ]
+              }
+            },
+            "Enabled": false,
+            "Offset": [0, 0],
+            "Rotation": 0.0,
+            "Transparency": {
+              "NumberSequence": {
+                "keypoints": [
+                  {
+                    "time": 0.0,
+                    "value": 0.0,
+                    "envelope": 0.0
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 0.0,
+                    "envelope": 0.0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "UIPadding": {
+          "$className": "UIPadding",
+          "$properties": {
+            "PaddingBottom": { "UDim": [0.0, 8] },
+            "PaddingLeft": { "UDim": [0.0, 8] },
+            "PaddingRight": { "UDim": [0.0, 8] },
+            "PaddingTop": { "UDim": [0.0, 8] }
+          }
+        },
+        "ImageLabel": {
+          "$className": "ImageLabel",
+          "$properties": {}
+        }
+      }
+    }
+  }
+}

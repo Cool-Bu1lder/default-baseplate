@@ -1,0 +1,16 @@
+{
+  "[lua]": {
+    "editor.defaultFormatter": "JohnnyMorganz.stylua",
+    "editor.formatOnSave": true
+  },
+  "material-icon-theme.folders.associations": {
+    "ReplicatedStorage": "shared",
+    "StarterPlayerScripts": "client",
+    "StarterCharacterScripts": "android",
+    "ServerScriptService": "server",
+    "ServerStorage": "database",
+    "ReplicatedFirst": "supabase",
+    "Workspace": "global",
+    "Terrain": "environment"
+  }
+}
