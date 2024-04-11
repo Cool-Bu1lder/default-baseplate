@@ -222,7 +222,7 @@
         "$properties": {
           "FontFace": {
             "family": "rbxasset://fonts/families/BuilderSans.json",
-            "weight": "Regular",
+            "weight": "Medium",
             "style": "Normal"
           },
           "TextSize": 18
@@ -233,7 +233,7 @@
         "$properties": {
           "FontFace": {
             "family": "rbxasset://fonts/families/BuilderSans.json",
-            "weight": "Regular",
+            "weight": "Medium",
             "style": "Normal"
           },
           "TextSize": 18
