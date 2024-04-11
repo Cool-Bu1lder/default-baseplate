@@ -244,8 +244,8 @@
         "$properties": {
           "FontFace": {
             "family": "rbxasset://fonts/families/BuilderSans.json",
-            "weight": "Regular",
-            "style": "Medium"
+            "weight": "Medium",
+            "style": "Normal"
           },
           "TextSize": 20
         },
