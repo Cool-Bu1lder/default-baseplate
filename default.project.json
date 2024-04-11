@@ -169,7 +169,10 @@
     },
 
     "ReplicatedStorage": {
-      "$path": "src/ReplicatedStorage"
+      "$path": "src/ReplicatedStorage",
+      "Packages": {
+        "$path": "Packages"
+      }
     },
 
     "ServerScriptService": {
