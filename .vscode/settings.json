@@ -11,6 +11,7 @@
     "ServerStorage": "database",
     "ReplicatedFirst": "supabase",
     "Workspace": "global",
-    "Terrain": "environment"
+    "Terrain": "environment",
+    "ServerPackages": "packages"
   }
 }

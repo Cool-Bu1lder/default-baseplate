@@ -81,7 +81,8 @@
 
     "Players": {
       "$properties": {
-        "RespawnTime": 3
+        "RespawnTime": 3,
+        "CharacterAutoLoads": true
       }
     },
 
@@ -176,7 +177,10 @@
     },
 
     "ServerScriptService": {
-      "$path": "src/ServerScriptService"
+      "$path": "src/ServerScriptService",
+      "Packages": {
+        "$path": "ServerPackages"
+      }
     },
 
     "ServerStorage": {

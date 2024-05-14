@@ -5,4 +5,10 @@ registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
-Promise = "evaera/promise@^4.0"
+Roact = "roblox/roact@1.4.4"
+Knit = "sleitnick/knit@1.7.0"
+Promise = "evaera/promise@4.0.0"
+Janitor = "howmanysmall/janitor@1.16.0"
+
+[server-dependencies]
+Datastore = "uiscript/suphis-datastore-module@0.2.0"
